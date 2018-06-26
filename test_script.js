@@ -6,8 +6,7 @@ const client = new pg.Client({
   password : settings.password,
   database : settings.database,
   host     : settings.hostname,
-  port     : settings.port,
-  ssl      : settings.ssl
+  port     : settings.port
 });
 
 client.connect((err) => {
