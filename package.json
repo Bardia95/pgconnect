@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Bardia95/pgconnect#readme",
   "dependencies": {
+    "knex": "^0.14.6",
     "moment": "^2.22.2",
     "pg": "^7.4.3"
   }
